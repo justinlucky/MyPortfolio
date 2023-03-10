@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="logo">
+        <span>L</span>
+        <span>u</span>
+        <span>n</span>
+        <span>g</span>
+        <span>c</span>
+        <span>h</span>
+        <span>u</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+        <span>a</span>
+        <span>m</span>
+      </div>
+      <button id="toggle-button" class="fa fa-bars" class="fa fa-xmark"></button>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <span class="fa fa-home">
+            </span>Home
+          </a>
+        </li>
+        <li> 
+          <a href="Education.html">
+            <span class="fa fa-graduation-cap">
+            </span>Education
+          </a>
+        </li>
+        <li>
+          <a href="Work.html">
+            <span class="fa fa-briefcase"></span>My Works
+          </a>
+        </li>
+        <li>
+          <a href="Resume.html">
+            <span class="fa fa-file"></span>My CV
+          </a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="intro">
+    <h2>Welcome to my Portfolio</h2>
+    <p>responsive web developer and designer.</p>
+  </section>
+  
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi there! My name is Lungchuingam Riammei and I'm a web developer based in Hyderabad City. To specialize in e-commerce web development and design, creating engaging and conversion-focused online shopping experiences, optimizing for mobile and tablet devices, and using A/B testing and analytics to drive improvements and revenue growth.</p>
+  </section>
+  <div id="loading-overlay">
+  <i id="loading-spinner" class="fa fa-solid fa-spinner"></i>
+</div>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project">
+        <img src="https://via.placeholder.com/400x250.png?text=Project+1" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>This is a description of Project 1. It's a beautiful and functional website I built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/400x250.png?text=Project+2" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>This is a description of Project 2. It's another beautiful and functional website I built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/400x250.png?text=Project+3" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>This is a description of Project 3. It's a third beautiful and functional website I built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/400x250.png?text=Project+3" alt="Project 3">
+        <h3>Project 4</h3>
+        <p>This is a description of Project 4. It's a third beautiful and functional website I built using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+  <h2>Reach Me</h2>
+  <div id="form">
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" id="send_btn">Send</button>
+    </form>
+  </div>
+</section>
+<div class="footer">
+  <div class="footer-row">
+    <div class="footer-item">
+      <h3>Location</h3>
+      <hr/>
+      <p>H.no:7-6/2, Ganesh Nagar Colony Street no:3,</p>
+      <p>Peerzadiguda village, Medipally,</p>
+      <p>Medchel, Hyderabad, Telangana,500098.</p>
+      <iframe src="" allowfullscreen></iframe>
+    </div>
+    <div class="footer-item">
+      <h3>Social Media</h3>
+      <hr/>
+      <ul>
+        <li>
+          <a href="https://mobile.twitter.com/LRiammei" >
+            <span class="fa fa-twitter" id="twitter">
+            </span>Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://m.facebook.com/home.php?tbua=1">
+            <span class="fa fa-facebook" id="facebook">
+            </span>Facebook
+          </a>
+        </li>
+        <li>
+          <a href=" https://www.linkedin.com/home?originalSubdomain=in">
+            <span id="linkedin" class="fa fa-linkedin">
+            </span>Linkedin
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/justinlucky">
+            <span id="github" class="fa fa-github">
+            </span>GitHub
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span id="whatsapp" class="fa fa-whatsapp"> 
+            </span>WhatsApp 
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-item">
+      <h3>Disclaimer</h3>
+      <hr/>
+      <p id="instruction">This website is for demonstration purposes only.
+      </p>
+            <a class="term" href="Term.html">Term and conditions</a>
+    </div>
+  </div>
+  <div class="footer-row">
+    <div class="footer-item">
+      <p id="copyright">&copy; Coded with 💕 and dedication by Lungchuingam</p>
+    </div>
+  </div>
+</div>
+
+  <script>
+    const projectContainer = document.querySelector('.project-container');
+function setProjectContainerClass() {
+  if (window.innerWidth >= 768) {
+    projectContainer.classList.remove('single-column');
+  } else {
+    projectContainer.classList.add('single-column');
+  }
+}
+setProjectContainerClass();
+
+window.addEventListener('resize', setProjectContainerClass);
+//adjustable sidebar
+const toggleButton = document.getElementById('toggle-button');
+const navLinks = document.querySelector('.nav-links');
+const closeIcon = document.createElement('i');
+closeIcon.className = 'fa fa-times';
+
+toggleButton.addEventListener('click', function() {
+  if (toggleButton.classList.contains('fa-bars')) {
+    navLinks.classList.toggle('active');
+    toggleButton.classList.remove('fa-bars');
+    toggleButton.classList.add('fa-times');
+  } else {
+    navLinks.classList.remove('active');
+    toggleButton.classList.add('fa-bars');
+    toggleButton.classList.remove('fa-times');
+  }
+});
+
+navLinks.addEventListener('click', function(event) {
+  if (event.target.tagName === 'A') {
+    navLinks.classList.remove('show');
+    toggleButton.classList.add('fa-bars');
+    toggleButton.classList.remove('fa-times');
+  }
+});
+//greetings and 
+//validation 
+const form = document.getElementById('contact-form');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('message');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  if (!validateForm()) {
+    return;
+  }
+
+  const name = nameInput.value;
+  const mail= emailInput.value;
+  const mess= messageInput.value; 
+  const message = `Message sent successfully. Thank you, ${name}!`;
+  alert(message);
+  console.log(name+" "+"with e-mail as"+" "+mail+" "+"says"+" "+mess);
+
+  form.reset();
+});
+
+function validateForm() {
+  let valid = true;
+  
+  if (nameInput.value.trim() === '') {
+    valid = false;
+    nameInput.classList.add('error');
+  } else {
+    nameInput.classList.remove('error');
+  }
+
+  if (emailInput.value.trim() === '') {
+    valid = false;
+    emailInput.classList.add('error');
+  } else {
+    emailInput.classList.remove('error');
+  }
+
+  if (messageInput.value.trim() === '') {
+    valid = false;
+    messageInput.classList.add('error');
+  } else {
+    messageInput.classList.remove('error');
+  }
+
+  return valid;
+}
+// Show loading effect
+document.addEventListener("DOMContentLoaded", function() {
+  var overlay = document.getElementById("loading-overlay");
+  var spinner = document.getElementById("loading-spinner");
+
+  overlay.style.display = "flex";
+  setTimeout(function() {
+    overlay.style.display = "none";
+  }, 800);
+});
+
+
+  </script>
+ </body>
+</html>
+    
+
+
